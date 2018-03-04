@@ -9,10 +9,10 @@ import org.springframework.context.annotation.Configuration;
  * @author arbijawe on 3/4/18
  * @project joke-app
  */
-@Configuration
+//@Configuration
 public class ChuckConfiguration {
 
-    @Bean
+   // @Bean
     public ChuckNorrisQuotes chuckNorrisQuotes(){
         return new ChuckNorrisQuotes();
     }
